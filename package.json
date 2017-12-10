@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "node-fetch": "^1.7.1"
+    "algoliasearch": "^3.24.7",
+    "node-fetch": "^1.7.1",
+    "sha1": "^1.1.1"
   }
 }

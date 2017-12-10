@@ -1,7 +1,5 @@
 const fetch = require("node-fetch");
 
-console.log("American Express");
-
 const baseHeaders = {
   cupcake: "",
   Face: "en_GB",
@@ -115,7 +113,4 @@ const timelineReport = response => {
     }))
 };
 
-auth()
-  .then(x => timeline(x.cupcake))
-  .then(x => console.log(x[x.length - 1]))
-  .catch(err => console.error(err));
+module.exports = { auth, timeline };
